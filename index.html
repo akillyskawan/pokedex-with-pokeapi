@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style/main.style.css">
+        <title>Pokédex</title>
+    </head>
+    <body>
+         <div class="pokedex_container">
+            <h1>Pokédex</h1>
+    
+            <div class="pokedex_container_form"> 
+                <input type="text" name="pokemon" id="input" autocomplete="off" autofocus> 
+                <input type="submit" id="submit" name="pokemon" value="Search">
+            </div> 
+    
+    
+            <div class="pokedex_container_pokemon">
+                <span class="pokemon_id"><p id="pokemon_id">#1</p></span>
+                <p id="pokemon_name">Bulbasaur</p>
+                <img id="pokemon_img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/1.gif" alt="">
+    
+                <div class="pokemon_type">
+                    <span id="type_1" class="grass" class="type">Grass</span>
+                    <span id="type_2" class="poison" class="type">poison</span>
+                </div>
+            </div>
+    
+        </div>
+    </body> 
+    </html>
+
+<script src="assets/content.js"></script>
+<script src="assets/pokeApi.js"></script>
+<script src="assets/model.js"></script>
